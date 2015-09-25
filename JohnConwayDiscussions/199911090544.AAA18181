@@ -1,0 +1,68 @@
+From: ssi...@netdepot.com (Steve Sigur)
+Subject: Re: three cubics and their group structures
+Date: 1999/11/09
+Message-ID: <199911090544.AAA18181@jupiter.netdepot.com>#1/1
+X-Deja-AN: 546251748
+Distribution: inet
+Approved: approve
+Sender: dae...@forum.swarthmore.edu
+Organization: Forum news/mail gateway
+Newsgroups: geometry.college
+
+on 11/8/99 11:56 AM John Conway wrote
+
+>
+>   I apologize for my long absence from this scene!  
+
+but good to have you back.
+
+>   Then it's easy to check that the set of  P  for which the triangle
+>A_[P,k] B_[P,k] C_[P,k]  is in perspective with  A B C  is an isogonal
+>cubic, whose perspector (or pivot) is a point on the Euler line.
+
+Very neat. 
+
+Lately this group has been abuzz with (potentially) new cubics, so I too 
+have been thinking about families of cubics. Since so many desmon points 
+(of desmic triples) are on the Euler line, the family you derived seemed 
+a reasonable choice, but I have been looking at the GK and OK lines as 
+well. 
+
+Here are some random thoughts that I have been thinking about cubic 
+curves.
+
+Because of the desmic quadrangles formed by the Feuerbach points around 
+N, I have been looking at the isogonal cubic with pivot N. The Feuerbach 
+mates are on it, as are O and H .
+
+Rather than thinking of cubics as points where certain triangles are the 
+same, I have been thinking of a cubic as a structure that organizes 
+straight lines (via the group law). In particular the desmic quadrangle 
+structure colinearities seem to be the cubic group law. I have been 
+wondering if there might be "mated" cubics. For example it makes sense to 
+me that the Feuerbach-Feuerbach mate desmic structure would be on a cubic 
+(as is the Gergonne-Nagel desmic structure), so I have been looking for 
+that. Such a cubic could not be isotomic or isogonic.  But I have been 
+very busy with other things so this goes slowly. 
+
+Lastly, the important cubics seem to have strong points as pivots. In the 
+group tables of your three canonical cubics, the weak and strong points 
+alternate rows. This has the effect of collecting weak lines at strong 
+points, very good for understanding all those 4fold families of weak 
+lines. Well, I have been wondering what happens when the pivot is not 
+strong and so I have been trying to determing the group stucture of 
+incenter and gergonne cubics. So far not so interesting.
+
+>   For  k = 1  this gives the de Longchamps point L, the reflection
+>of  H  in  O,  while for  k = 2, it gives  O - H, the point at infinity
+>on the Euler line, showing that the locus of the points whose reflections
+>in the sides form a triangle in perspective with  ABC  is our old friend,
+>the Neuberg cubic!
+
+I have always liked that cubic, perhaps because it was my first cubic, 
+but mostly because the Fermats and isodynamics are on it, showing that 
+FnIn and FsIs are parallel to the Euler line. I note also that your 
+derivation of the Neuberg cubic gave a reducible sextic. 
+
+     (Line at infinity) (circumcircle) (Neuberg cubic) 
+

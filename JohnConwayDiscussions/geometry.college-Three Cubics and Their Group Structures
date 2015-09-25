@@ -1,0 +1,143 @@
+From: ssi...@netdepot.com (Steve Sigur)
+Subject: three cubics and their group structures
+Date: 1999/11/02
+Message-ID: <199911020550.AAA07697@jupiter.netdepot.com>#1/1
+X-Deja-AN: 543397249
+Distribution: inet
+Approved: approve
+Sender: dae...@forum.swarthmore.edu
+Organization: Forum news/mail gateway
+Newsgroups: geometry.college
+
+This summer I spent several days at Princeton talking Geometry with John 
+Conway. We spent much of the time talking about cubics and geometry. The 
+following is from my notes. I plan to follow this with a page on how the 
+group law is established. I have pictures of all three for anyone who is 
+interested. Those who have gotten the others will get the third so you do 
+not have to ask.
+
+There have been recent messages about the isotomic cubic with pivot K+, 
+the superior of the symmedian point, also the isotomic conjugate of the 
+orthocenter H. We have also spoken of the Antipodal cubic, an isogonal 
+cubic with pivot L, the deLongchamps point. Note both pivots are strong 
+points.
+
+There is a third cubic related to these: the isogonal cubic with pivot G, 
+the centroid. Kimberline introduces his section on cubics with this one.
+
+These cubics are related; there is an isomorphism between the group laws 
+of these cubics.
+
+It is these group laws which give these cubics added structural 
+importance in geometry (compared to, say, conics). They define 
+colinearities between quartiles of points. The articles and books that 
+mention these cubics give their names and the important points on the 
+cubic. In doing this they miss their significance. They also ignore the 
+quartile nature of the structures. It is not the points that matter as 
+much as the lines between the points.
+
+The three cubics may be defined together. 
+
+The set of points P for which there exists points Q,R such that the pedal 
+of P is the cevian of Q and the prepedal of P is the precevian of R.
+
+The points P lie on the antipodal cubic.
+The points Q lie on the K+ isotomic cubic.
+The points R lie on the G isogonal cubic.
+
+Each cubic has a group of the form   Z cross V, where Z is the integers 
+and V is the Viergruppe, the Klein 4 group.
+
+
+Group tables
+If spaces are left blank it is because the points are not named points.
+Not all named points have been listed on each cubic; eg, L is at row -IV 
+on the isotomic cubic.
+
+In the group table the rows represent the integers, denoted by Roman 
+numerals.  The o a b c represent the 4 elements of the 4-group. These 
+symbols obey
+o+a=a, o+b=b, o+c=c, o+o=o       a+b=c, a+c=b, b+c=a.
+
+Points come in groups of 4.
+
+Rows of weak and strong points alternate, guaranteeing that families of 
+weak lines will be concur at strong points.
+
+Here the Gx (x=o,a,b,c) are the Gergonnes, Nx the Nagels, Mx the 
+Mitten(punkt)s, Ix the incenters, the + is the superior operation, the - 
+the subordinate, ~ represents reflection accross the circumcenter O, * 
+represents isogonal conjugate. AL...are the feet of the cevian triangle 
+of L, AK+ ... are the feet of the cevian triangle of K+
+
+The points at infinity are those on the perpendicular bisectors of the 
+sides of ABC.
+
+
+  precevian of R = pedal of P       P          cevian of Q = pedal of P
+  
+        isogonal                isogonal             isotomic
+        
+        o  a  b  c             o  a  b  c            o  a  b  c
+        ----------             ----------            ----------
+-II    H                       L  A  B  C            K+ A  B  C
+
+-I     -                     ~Io ~Ia ~Ib ~Ic         No Na Nb Nc
+
+0      K  A- B- C-            O  pts at infinity     G  A+ B+ C+
+
+I      Io Ia Ib Ic            Io Ia Ib Ic            Go Ga Gb Gc
+
+II     G  A  B  C             H  ~A ~B ~C            H AK+ BK+ CK+
+
+III    Mo Ma Mb Mc            (~Io)* ...             -
+
+IV     O                      L* AL BL CL            -
+
+
+pivot      G                      L                      K+
+
+center     K                      O                      G
+
+constant   O                      O                      K+
+
+The right table (the isotomic cubic) is the superior of the left, 
+staggered by two rows.
+
+
+Implementing the group tables.
+
+Three points that obey the group relations are colinear. To obey those 
+relations the integers on the left must add to the constant and the oabc 
+must satisfy the relations given above.
+
+Example:
+
+For the isotomic cubic the constant is K+ with Z value -II. These sets of 
+points are colinear
+
+      points             Z values          4-group values
+      
+      G A+ A             0  0  -II         o  o  a
+      G G K+             0  0  -II         o  o  o
+      Ga Na K+           I -I  -II         a  a  o
+      AB+ B K+           II  -Ii  -II      b  b  o
+      
+Points in rows above and below the Ix are isogonally conjugate.
+Points in rows above and below the G row are isotomically conjugate.
+Points above and below the O row are reflections accross the circumcenter 
+O.
+
+If X, Y, Z are colinear then
+
+X  X+A  X+B  X+C
+Y  Y+A  Y+B  Y+C
+Z  Z+A  Z+B  Z+C
+
+form a desmic triple of quadrangles. Hence there are lots of them.
+
+If particular importance are the tangents to the cubic at important 
+points but that will have to wait til next time.
+
+Steve Sigur
+

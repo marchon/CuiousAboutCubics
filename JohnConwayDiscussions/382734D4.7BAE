@@ -1,0 +1,123 @@
+From: f.v.l...@wxs.nl (Floor van Lamoen)
+Subject: Re: three cubics and their group structures
+Date: 1999/11/08
+Message-ID: <382734D4.7BAE@wxs.nl>#1/1
+X-Deja-AN: 546066881
+Distribution: inet
+Approved: approve
+Sender: dae...@forum.swarthmore.edu
+References: <01BF29F7.2F4EFD70.yiu@fau.edu>
+Organization: Forum news/mail gateway
+Newsgroups: geometry.college
+
+Dear Paul,
+
+You are redoing my work!
+
+Paul Yiu wrote:
+> 
+> Dear friends,
+> 
+> This is a commentary on the sextic curve that John referred to in his earlier
+> posting.
+> 
+> But the locus of  P  for which  A^[P,k] B^[P,k] C^[P,k]
+> is in perspective with  A B C  seems to be a sextic rather than a cubic.
+> 
+> ***********
+> 
+> Given a point P = f:g:h in homogeneous barycentric coordinates.
+> We talk about  P-perpendicularity. If the point of infinity of a line
+> ell is u:v:w, then the point of infinity of the P-perpendicular(s) of ell
+> is
+> 
+> v/g- w/h : w/h - u/f : u/f - v/g.
+> 
+> ***********
+> Now we consider a point X = u:v:w.
+> The P-perpendicular to AX at A is the line
+> 
+> (v/g + (v+w)/f)y - (w/h + (v+w)/f)z = 0.
+> 
+> Similarly, we write down the equation of the P-perpendiculars at B to
+> BX, and at C to CX.
+> 
+> **********
+> 
+> Let's call these P-perpendiculars ell_a, ell_b, and ell_c
+> respectively.  The intersection A' of the lines ell_b and \ell_c
+> is the point
+> 
+>   (v/g + (w+v)/h)(w/h + (w+u)/g)
+> : (u/f + (u+v)/h)(w/h + (w+u)/g)
+> : (u/f + (w+u)/g)(v/g + (u+v)/h).
+> 
+> The line joining AA' intersects BC at the point
+> 
+>   0
+> : (u/f + (u+v)/h)(w/h + (w+u)/g)
+> : (u/f + (w+u)/g)(v/g + (u+v)/h).
+> 
+> *******************
+> 
+> Similarly, we write down the coordinates of the intersections
+> B' of ell_c, \ell_a, and C' of \ell_a, \ell_b.  The line
+> BB' intersects CA at the point
+> 
+>     (v/g + (u+v)/h)(w/h + (v+w)/f) :
+> 0 : (v/g + (v+w)/f)(u/f + (u+v)/h),
+> 
+> and the line CC' intersects AB at the point
+> 
+> (w/h + (w+u)/g)(v/g + (v+w)/f) :
+> (w/h + (v+w)/f)(u/f + (w+u)/g) : 0.
+
+<...>
+
+>From here I would prefer to go a different way.
+
+Let me refer to the above three points as A", B" and C".
+
+Remember that the P-trace of P-pedal triangle of X is given by the
+matrix:
+
+ 0            gu + (g+h)v  hu + (g+h)w
+ fv + (f+h)u  0            hv + (f+h)w
+ fw + (f+g)u  gw + (f+g)v  0
+
+Which I will refer to as:
+
+ 0   m12  m13
+ m21 0    m23
+ m31 m32  0
+
+Then triangle A"B"C" can be written as:
+
+0         g*m13*m21 h*m12*m31
+f*m23*m12 0         h*m21*m32
+f*m32*m13 g*m31*m23 0
+
+These points form a Cevian triangle iff:
+
+fgh( [m12*m23*m31]^2 - [m21*m32*m13]^2 ) = 0
+
+fgh (m12*m23*m31 - m21*m32*m13)(m12*m23*m31 + m21*m32*m13) = 0
+
+So we have that the P-pedal/P-trace triangle is either Cevian or
+degenerate!
+
+So the locus of X for which the P-pedal triangle is perspective to ABC
+is the union of the cubic (P-Darboux) for wich the pedal triangle is a
+Cevian triangle, the P-circumconic in the sense of Simson's theorem, and
+the line at infinity.
+
+Specializing this to P=H we find the union of the circumcircle, the
+Darboux conic (isogonal, pivot= De Longchamps) and the line at infinity.
+
+Kind regards,
+Floor van Lamoen.
+
+P.S.
+For John --> I have written a paper on this notion of
+P-perpendicularity. If you send me your snail mail address (which I
+don't know) it will be on its way to you.

@@ -1,0 +1,143 @@
+From: y...@fau.edu (Paul Yiu)
+Subject: RE: three cubics and their group structures
+Date: 1999/11/08
+Message-ID: <01BF29E8.AE9E61B0.yiu@fau.edu>#1/1
+X-Deja-AN: 545997672
+Distribution: inet
+Approved: approve
+Sender: dae...@forum.swarthmore.edu
+Organization: Forum news/mail gateway
+Newsgroups: geometry.college
+
+Dear friends,
+
+I would like to offer a generalization of the family of cubics
+that John is talking about here.
+
+Let P be a point with homogeneous barycentric coordinates
+u : v : w.  For each point X, the P-traces of  A_[P,X], B_[P,X],
+and C_[P,X]  are the intersections of the side lines of the reference 
+triangle
+with the lines through X parallel to AP, BP, CP  respectively.
+
+Fix a real number k. On each of the  the lines
+XA_[P,X],  XB_[P,X], and XC_[P,X] choose a point
+A_[P,k],  B_[P,k], and C_[P,k] such that
+
+XA_[P,k] =  k times XA_[P,X],
+XB_[P,k] = k times XB_[P,k], and
+XC_[P,k]= k times XC_[P,k].
+
+The triangles A_[P,k]B_[P,k]C_[P,k] and ABC are in perspective
+if  and only if  the point  X lies on the cubic
+
+  (v+w - ku)x(w(u+v)y^2-v(w+u)z^2)
++(w+u - kv)y(u(v+w)z^2-w(u+v)x^2)
++(u+v - kw)z(v(w+u)x^2-u(v+w)y^2) = 0.
+
+The pivot of this cubic is the point
+
+v+w - ku : w+u - kv : u+v-kw
+
+which is  3G - (k+1)P normalized. Here, G is the centroid of
+the reference triangle.
+
+If k = 1, this is the cubic I mentioned last week. See
+
+http://forum.swarthmore.edu/epigone/geometry-college/swelsumswex/01BF251  
+5.81980...@fau.edu
+
+For k=2, this is the cubic for the perspectivity of the triangle
+of P-reflections and the reference triangle, which has pivot
+the point at infinity of the P-Euler line.
+
+
+Best regards,
+Paul Yiu
+
+
+----------
+From: 	John Conway[SMTP:...@math.Princeton.EDU]
+Sent: 	Monday, November 08, 1999 11:56 AM
+To: 	Steve Sigur
+Cc: 	Antreas P. Hatzipolakis; geometry...@forum.swarthmore.edu; 
+do...@gauss.umemat.maine.edu; woob...@aol.com; r...@cpsc.ucalgary.ca; 
+c...@evansville.edu; jhc...@math.Princeton.EDU
+Subject: 	Re: three cubics and their group structures
+
+
+   I apologize for my long absence from this scene!
+
+Let me add some discoveries I made more recently, which embed some
+of these cubics in infinite families.
+
+   I have long used  A_[P], B_[P], C_[P]  for the feet of the
+perpendiculars from  P  to the edges, A_<P>, B_<P>, C_<P>  for
+the reflections of  P  in the edges, and  A^[P], B^[P], C^[P]
+and  A^<P>, B^<P>, C^<P>  for the inverse operations.  [The
+edges of the two latter triangles are respectively the perpendiculars
+to  AP,BP,CP  at the vertices, and the perpendicular bisectors of
+those segments.
+
+   It now seems to be a good idea to introduce a parameter  k,
+so I'll temporarily write  B_[P,k] for the point on the line
+from  B  to  B_[P]  that's  k  times as far away from  B  as
+B_[P]  is,  so that  B_[P] = B_[P,1]  and  B_<P> = B_[P,2].
+
+   Then it's easy to check that the set of  P  for which the triangle
+A_[P,k] B_[P,k] C_[P,k]  is in perspective with  A B C  is an isogonal
+cubic, whose perspector (or pivot) is a point on the Euler line.
+
+    Let me prove this.  In my usual notation, (SC:-bb:SA)  is a vector
+perpendicular to the edge B, and so we obtain  B_[P,k]  by adding
+
+                 (bbX : bbY : bbZ)
+             to  (kSCY:-kbbY:kSAY)
+
+which gives us a point of the form  (bbX+kSCY:*:bbZ+kSAY).  So the 
+resulting
+triangle will be in perspective with  ABC  just if
+
+    (aaZ+kSBX)(bbX+kSCY)(ccY+kSAZ) - (aaY+kSCX)(bbZ+kSAY)(ccX+kSBZ) = 0,
+
+where the terms in those products were got by cyclic permutation.
+Since the XYZ terms cancel it suffices to pick out the  XXY and  ZZY 
+ terms:
+
+           kcc(bbSB - kSCA)XXY + kaa(kSCA-bbSB)ZZY
+
+since by cyclic permutation these will give the rest.  They show that
+the desired locus is the isogonal cubic with perspector
+
+    ( aaSA - kSBC : bbSB-kSCA : ccSC - kSAB ).
+
+Here we recognize ( : bbSB : ) as the coordinates for  2SS times O,
+and  ( : SCA : )  as  SS times those for  H, so this point is  2O - kH.
+
+   For  k = 1  this gives the de Longchamps point L, the reflection
+of  H  in  O,  while for  k = 2, it gives  O - H, the point at infinity
+on the Euler line, showing that the locus of the points whose reflections
+in the sides form a triangle in perspective with  ABC  is our old friend,
+the Neuberg cubic!
+
+   It's nice that the limit as k -> 0  is the cubic with perspector  O.
+
+   Now my idea was that my original set of "four" cubics (really three
+since two of them coincide) would turn into four (or maybe three) such
+infinite families.  But the locus of  P  for which  A^[P,k] B^[P,k] C^[P,k]
+is in perspective with  A B C  seems to be a sextic rather than a cubic.
+Indeed, I discovered that this is really true even for  k = 1, so
+exhibiting a mistake in my old work, although then the sextic is the
+product of two cubics.
+
+   Steve - the mistake is that it's NOT true that the locus of points
+P for which  DELTA^[P] = DELTA^Q  for some  Q  is the cubic we thought
+it was - in fact that cubic is only part of the locus.
+
+   I found myself becoming unreliable around here, so postponed
+further investigation of these possible families of cubics until
+a later date.  But I think it's going to be a valuable and informative
+investigation.
+
+   John Conway
+

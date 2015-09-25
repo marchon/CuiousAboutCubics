@@ -1,0 +1,113 @@
+From: y...@fau.edu (Paul Yiu)
+Subject: RE: three cubics and their group structures
+Date: 1999/11/08
+Message-ID: <01BF29F7.2F4EFD70.yiu@fau.edu>#1/1
+X-Deja-AN: 546034323
+Distribution: inet
+Approved: approve
+Sender: dae...@forum.swarthmore.edu
+Organization: Forum news/mail gateway
+Newsgroups: geometry.college
+
+Dear friends, 
+
+This is a commentary on the sextic curve that John referred to in his earlier
+posting.  
+
+But the locus of  P  for which  A^[P,k] B^[P,k] C^[P,k]
+is in perspective with  A B C  seems to be a sextic rather than a cubic.
+
+***********
+
+Given a point P = f:g:h in homogeneous barycentric coordinates.
+We talk about  P-perpendicularity. If the point of infinity of a line
+ell is u:v:w, then the point of infinity of the P-perpendicular(s) of ell
+is
+
+v/g- w/h : w/h - u/f : u/f - v/g.
+
+***********
+Now we consider a point X = u:v:w. 
+The P-perpendicular to AX at A is the line
+
+(v/g + (v+w)/f)y - (w/h + (v+w)/f)z = 0.
+
+Similarly, we write down the equation of the P-perpendiculars at B to
+BX, and at C to CX. 
+
+**********
+
+Let's call these P-perpendiculars ell_a, ell_b, and ell_c 
+respectively.  The intersection A' of the lines ell_b and \ell_c 
+is the point
+
+  (v/g + (w+v)/h)(w/h + (w+u)/g)
+: (u/f + (u+v)/h)(w/h + (w+u)/g) 
+: (u/f + (w+u)/g)(v/g + (u+v)/h).
+
+The line joining AA' intersects BC at the point
+
+  0
+: (u/f + (u+v)/h)(w/h + (w+u)/g) 
+: (u/f + (w+u)/g)(v/g + (u+v)/h).
+
+*******************
+
+Similarly, we write down the coordinates of the intersections 
+B' of ell_c, \ell_a, and C' of \ell_a, \ell_b.  The line
+BB' intersects CA at the point
+
+
+    (v/g + (u+v)/h)(w/h + (v+w)/f) : 
+0 : (v/g + (v+w)/f)(u/f + (u+v)/h),
+
+and the line CC' intersects AB at the point
+
+(w/h + (w+u)/g)(v/g + (v+w)/f) :
+(w/h + (v+w)/f)(u/f + (w+u)/g) : 0.
+
+**********
+From these coordinates, we easily determine the condition for 
+the perspectivity of the triangles A'B'C' and ABC to be that
+X lies on the union of two cubic curves.
+
+The first of these is the cubic curve
+
+  (g+h-f)u(h(f+g)v^2 - g(h+f)w^2)  
++ (h+f-g)v(f(g+h)w^2 - h(f+g)u^2)
++ (f+g-h)w(g(h+f)u^2 - f(g+h)v^2) = 0,
+
+which is the same as the cubic for which the P-trace triangle is cevian.
+
+The second cubic 
+
+    u(h(f+g)v^2 + g(h+f)w^2)
++ v(f(g+h)w^2 + h(f+g)u^2) 
++ w(g(h+f)u^2 + f(g+h)v^2) 
++ 2(fg+gh+hf)uvw = 0.
+
+
+The second aside, we obtain from the first one the following 
+corollary:
+
+(1) If the P-trace triangle of a point is cevian, then so is
+the ``P-antipedal'' triangle of the same point.  
+
+Specializing to P = H, the orthocenter, we obtain
+
+(2) If the pedal triangle of a point is cevian, then 
+so is the antipedal triangle of the same point.
+
+*******
+Example. For P = H, the orthocenter, the first cubic is 
+the isogonal cubic of the de Longchamps point. 
+On this cubic is, for example, the point 2O-I, the reflection of 
+the incenter about the circumcenter, X_{40} in Kimberling's list. 
+The pedal triangle of this point is cevian.
+
+In this example, the two perspectors both lie on the OI-line.
+
+Best regards,
+Sincerely,
+Paul Yiu
+
